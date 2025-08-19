@@ -43,14 +43,14 @@ export default function Sidebar({sideMenu,setSideMenu}:IProps) {
 
             <div className="py-4 pb-8 px-8 border-b border-gray h-[78px]">
               <Link href="/dashboard">
-                <Image
+                {/* <Image
                   className="w-[140px]"
                   width={140}
                   height={43}
                   src="/assets/img/logo/logo.svg"
                   alt="logo"
                   priority
-                />
+                /> */}
               </Link>
             </div>
             <div className="px-4 py-5">
