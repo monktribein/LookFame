@@ -64,6 +64,8 @@ const Header = ({ setSideMenu }: IProps) => {
               className="block lg:hidden text-2xl text-black"
             >
               <Menu />
+
+              
             </button>
             <div className="w-[30%] hidden md:block">
               <form action="#">

@@ -22,16 +22,16 @@ export default function HomePageFour() {
     <Wrapper>
       <HeaderFour/>
       <JewelryBanner/>
-      <FeatureAreaThree />
+      {/* <FeatureAreaThree />
       <JewelryShopBanner/>
       <JewelryAbout/>
       <PopularProducts/>
       <ProductArea/>
       <JewelryCollectionBanner/>
-      <BestSellerPrd/>
+      <BestSellerPrd/> 
       <JewelryBrands/>
       <InstagramAreaFour/>
-      <FooterTwo/>
+      <FooterTwo/> */}
     </Wrapper>
   );
 }

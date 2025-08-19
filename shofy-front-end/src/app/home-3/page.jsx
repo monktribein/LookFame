@@ -21,7 +21,7 @@ export default function HomePageThree() {
     <Wrapper>
       <HeaderThree />
       <BeautyBanner />
-      <BeautyCategory />
+      {/* <BeautyCategory />
       <BeautyFeatured />
       <ProductArea />
       <BeautyOfferBanner />
@@ -30,7 +30,7 @@ export default function HomePageThree() {
       <BeautyTestimonial />
       <FeatureAreaTwo />
       <InstagramAreaThree />
-      <Footer style_3={true} />
+      <Footer style_3={true} /> */}
     </Wrapper>
   );
 }

@@ -2,10 +2,10 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React, { useState } from 'react';
-import { useDispatch, useSelector } from 'react-redux';
+// import { useDispatch, useSelector } from 'react-redux';
 // internal
-import logo_white from '@assets/img/logo/logo-white.svg';
-import logo_dark from '@assets/img/logo/logo.svg';
+import logo_white from '@assets/img/logo/logo.png';
+// import logo_dark from '@assets/img/logo/logo.svg';
 import { CartTwo, Menu, Search, Wishlist } from '@/svg';
 import Menus from './header-com/menus';
 import useSticky from '@/hooks/use-sticky';
@@ -18,10 +18,10 @@ import { openCartMini } from '@/redux/features/cartSlice';
 const HeaderThree = () => {
   const [isSearchOpen, setIsSearchOpen] = useState(false);
   const [isOffCanvasOpen, setIsCanvasOpen] = useState(false);
-  const { wishlist } = useSelector((state) => state.wishlist);
+  // const { wishlist } = useSelector((state) => state.wishlist);
   const { quantity } = useCartInfo();
   const { sticky } = useSticky();
-  const dispatch = useDispatch();
+  // const dispatch = useDispatch();
   return (
     <>
       <header>
@@ -32,8 +32,8 @@ const HeaderThree = () => {
                 <div className="col-xl-2 col-lg-2 col-6">
                   <div className="logo">
                     <Link href="/">
-                      <Image className="logo-light" src={logo_white} alt="logo" />
-                      <Image className="logo-dark" src={logo_dark} alt="logo" />
+                      {/* <Image className="logo-light" src={logo_white} alt="logo" />
+                      <Image className="logo-dark" src={logo_dark} alt="logo" /> */}
                     </Link>
                   </div>
                 </div>
@@ -54,7 +54,7 @@ const HeaderThree = () => {
                     <div className="tp-header-action-item d-none d-sm-block">
                       <Link href="/wishlist" className="tp-header-action-btn">
                         <Wishlist />
-                        <span className="tp-header-action-badge">{wishlist.length}</span>
+                        {/* <span className="tp-header-action-badge">{wishlist.length}</span> */}
                       </Link>
                     </div>
                     <div className="tp-header-action-item d-none d-sm-block">

@@ -19,8 +19,9 @@ import Footer from "@/layout/footers/footer";
 export default function HomePage() {
   return (
     <Wrapper>
+      
       <Header/>
-      <HomeHeroSlider/>
+      {/* <HomeHeroSlider/>
       <ElectronicCategory/>
       <FeatureArea/>
       <ProductArea/>
@@ -33,7 +34,7 @@ export default function HomePage() {
       <BlogArea/>
       <InstagramArea/>
       <CtaArea/>
-      <Footer/>
+      <Footer/> */}
     </Wrapper>
-  )
+  );
 }
