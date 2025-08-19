@@ -1,35 +1,35 @@
-import home_1 from '@assets/img/menu/menu-home-1.jpg';
+// import home_1 from '@assets/img/menu/menu-home-1.jpg';
 import home_2 from '@assets/img/menu/menu-home-2.jpg';
-import home_3 from '@assets/img/menu/menu-home-3.jpg';
-import home_4 from '@assets/img/menu/menu-home-4.jpg';
+// import home_3 from '@assets/img/menu/menu-home-3.jpg';
+// import home_4 from '@assets/img/menu/menu-home-4.jpg';
 
 const menu_data = [
   {
     id: 1,
-    homes: true,
+    single_link: true,
     title: 'Home',
-    link: '/',
+    link: '/home-2',
     home_pages: [
-      {
-        img: home_1,
-        title: 'Electronics',
-        link: '/'
-      },
+      // {
+      //   img: home_1,
+      //   title: 'Electronics',
+      //   link: '/'
+      // },
       {
         img: home_2,
         title: 'Fashion',
         link: '/home-2'
-      },
-      {
-        img: home_3,
-        title: 'Beauty',
-        link: '/home-3'
-      },
-      {
-        img: home_4,
-        title: 'Jewelry',
-        link: '/home-4'
       }
+      // {
+      //   img: home_3,
+      //   title: 'Beauty',
+      //   link: '/home-3'
+      // },
+      // {
+      //   img: home_4,
+      //   title: 'Jewelry',
+      //   link: '/home-4'
+      // }
     ]
   },
   {
@@ -128,26 +128,26 @@ export const mobile_menu = [
     title: 'Home',
     link: '/',
     home_pages: [
-      {
-        img: home_1,
-        title: 'Electronics',
-        link: '/'
-      },
+      // {
+      //   img: home_1,
+      //   title: 'Electronics',
+      //   link: '/'
+      // },
       {
         img: home_2,
         title: 'Fashion',
         link: '/home-2'
-      },
-      {
-        img: home_3,
-        title: 'Beauty',
-        link: '/home-3'
-      },
-      {
-        img: home_4,
-        title: 'Jewelry',
-        link: '/home-4'
       }
+      // {
+      //   img: home_3,
+      //   title: 'Beauty',
+      //   link: '/home-3'
+      // },
+      // {
+      //   img: home_4,
+      //   title: 'Jewelry',
+      //   link: '/home-4'
+      // }
     ]
   },
   {
